@@ -15,9 +15,9 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
   onComplete,
   winnerCount
 }) => {
-  const [currentName, setCurrentName] = useState('');
+  const [currentGuide, setCurrentGuide] = useState<Guide | null>(null);
   const [phase, setPhase] = useState<'delay' | 'scrolling' | 'selecting' | 'complete'>('delay');
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(3);
   const [selectedWinners, setSelectedWinners] = useState<Guide[]>([]);
   const [currentWinnerIndex, setCurrentWinnerIndex] = useState(0);
 
@@ -25,10 +25,10 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
     if (!isScrolling || guides.length === 0) return;
 
     setPhase('delay');
-    setTimeLeft(10);
+    setTimeLeft(3);
     setSelectedWinners([]);
     setCurrentWinnerIndex(0);
-    setCurrentName('🎪 Get ready for the magic... 🎪');
+    setCurrentGuide(null);
 
     // Countdown phase
     const countdownInterval = setInterval(() => {
@@ -39,26 +39,25 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
           startScrolling();
           return 0;
         }
-        setCurrentName(`🎲 Starting in ${prev - 1}... 🎲`);
         return prev - 1;
       });
     }, 1000);
 
     const startScrolling = () => {
       let nameIndex = 0;
-      let speed = 80;
       let scrollDuration = 0;
-      let scrollInterval: NodeJS.Timeout;
+      const scrollSpeed = 50; // Much faster scrolling - 50ms intervals
+      const totalScrollTime = 5000; // 5 seconds of scrolling
       
       const scrollNames = () => {
         if (guides.length > 0) {
-          setCurrentName(guides[nameIndex].name);
+          setCurrentGuide(guides[nameIndex]);
+          nameIndex = (nameIndex + 1) % guides.length;
         }
-        nameIndex = (nameIndex + 1) % guides.length;
-        scrollDuration += speed;
+        scrollDuration += scrollSpeed;
         
-        // Scroll for 4 seconds, then start selecting winners
-        if (scrollDuration >= 4000) {
+        // After scrolling time, start selecting winners
+        if (scrollDuration >= totalScrollTime) {
           clearInterval(scrollInterval);
           setPhase('selecting');
           selectWinnersWithDelay();
@@ -66,11 +65,9 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
         }
       };
 
-      // Start immediate scrolling
+      // Start scrolling immediately
       scrollNames();
-      scrollInterval = setInterval(() => {
-        scrollNames();
-      }, speed);
+      const scrollInterval = setInterval(scrollNames, scrollSpeed);
     };
 
     const selectWinnersWithDelay = () => {
@@ -97,7 +94,7 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
 
       setSelectedWinners(winners);
       
-      // Reveal winners one by one with 15-second delays
+      // Reveal winners one by one with delays
       const revealWinner = (index: number) => {
         if (index >= winners.length) {
           setPhase('complete');
@@ -108,11 +105,11 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
         }
 
         setCurrentWinnerIndex(index);
-        setCurrentName(`🏆 WINNER #${index + 1}: ${winners[index].name} 🏆`);
+        setCurrentGuide(winners[index]);
         
         setTimeout(() => {
           revealWinner(index + 1);
-        }, 15000); // 15-second delay between winners
+        }, 3000); // 3-second delay between winners
       };
 
       revealWinner(0);
@@ -184,60 +181,136 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
         )}
 
         {/* Main Display Box */}
-        <div className="bg-white/20 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/30 shadow-2xl min-h-[200px] flex items-center justify-center">
+        <div className="bg-white/20 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/30 shadow-2xl min-h-[300px] flex items-center justify-center">
           <div className="w-full">
-            <AnimatePresence mode="wait">
+            {phase === 'delay' && (
               <motion.div
-                key={currentName + phase}
+                animate={{ 
+                  scale: [1, 1.05, 1],
+                  opacity: [0.8, 1, 0.8]
+                }}
+                transition={{ duration: 1, repeat: Infinity }}
+                className="text-center"
+              >
+                <div className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  🎪 Get Ready for the Magic! 🎪
+                </div>
+                <div className="text-lg text-blue-200">
+                  Preparing to draw from {guides.length} amazing guides...
+                </div>
+              </motion.div>
+            )}
+
+            {phase === 'scrolling' && currentGuide && (
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentGuide.id}
+                  initial={{ 
+                    y: 100,
+                    opacity: 0,
+                    scale: 0.8,
+                    rotateX: 90
+                  }}
+                  animate={{ 
+                    y: 0,
+                    opacity: 1,
+                    scale: 1,
+                    rotateX: 0
+                  }}
+                  exit={{ 
+                    y: -100,
+                    opacity: 0,
+                    scale: 0.8,
+                    rotateX: -90
+                  }}
+                  transition={{ 
+                    duration: 0.15,
+                    ease: "easeInOut"
+                  }}
+                  className="text-center"
+                >
+                  <div className="text-2xl md:text-3xl font-bold text-white mb-2">
+                    {currentGuide.name}
+                  </div>
+                  <div className="text-lg text-blue-200 mb-1">
+                    {currentGuide.department}
+                  </div>
+                  <div className="text-md text-blue-300">
+                    Supervisor: {currentGuide.supervisor}
+                  </div>
+                  <div className="text-sm text-yellow-300 mt-2">
+                    {currentGuide.totalTickets} tickets • NPS: {currentGuide.nps}
+                  </div>
+                </motion.div>
+              </AnimatePresence>
+            )}
+
+            {phase === 'selecting' && selectedWinners[currentWinnerIndex] && (
+              <motion.div
                 initial={{ 
-                  x: phase === 'scrolling' ? (Math.random() > 0.5 ? -100 : 100) : 0,
-                  y: phase === 'scrolling' ? (Math.random() > 0.5 ? -20 : 20) : 50,
-                  opacity: 0, 
-                  scale: 0.8,
-                  rotateX: phase === 'scrolling' ? 90 : 0
+                  scale: 0,
+                  opacity: 0,
+                  rotateY: 180
                 }}
                 animate={{ 
-                  x: 0,
-                  y: 0,
-                  opacity: 1, 
-                  scale: phase === 'selecting' ? 1.1 : 1,
-                  rotateX: 0
-                }}
-                exit={{ 
-                  x: phase === 'scrolling' ? (Math.random() > 0.5 ? 100 : -100) : 0,
-                  y: phase === 'scrolling' ? (Math.random() > 0.5 ? 20 : -20) : -50,
-                  opacity: 0, 
-                  scale: 0.8,
-                  rotateX: phase === 'scrolling' ? -90 : 0
+                  scale: 1,
+                  opacity: 1,
+                  rotateY: 0
                 }}
                 transition={{ 
-                  duration: phase === 'scrolling' ? 0.2 : 0.6,
-                  type: phase === 'selecting' ? "spring" : "tween",
-                  stiffness: phase === 'selecting' ? 100 : undefined,
-                  damping: phase === 'selecting' ? 15 : undefined
+                  duration: 0.8,
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 15
                 }}
                 className="text-center"
               >
-                <div className={`font-bold text-white leading-tight px-4 ${
-                  phase === 'selecting' 
-                    ? 'text-2xl md:text-4xl bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent' 
-                    : 'text-xl md:text-3xl'
-                }`}>
-                  {currentName || 'Preparing...'}
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent mb-4">
+                  🏆 WINNER #{currentWinnerIndex + 1} 🏆
                 </div>
-                
-                {phase === 'selecting' && selectedWinners[currentWinnerIndex] && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 }}
-                    className="mt-4 text-lg text-blue-200"
-                  >
-                    {selectedWinners[currentWinnerIndex].department} • {selectedWinners[currentWinnerIndex].totalTickets} tickets
-                  </motion.div>
-                )}
+                <div className="text-3xl md:text-4xl font-bold text-white mb-3">
+                  {selectedWinners[currentWinnerIndex].name}
+                </div>
+                <div className="text-xl text-blue-200 mb-2">
+                  {selectedWinners[currentWinnerIndex].department}
+                </div>
+                <div className="text-lg text-blue-300 mb-3">
+                  Supervisor: {selectedWinners[currentWinnerIndex].supervisor}
+                </div>
+                <div className="flex justify-center space-x-6 text-sm">
+                  <div className="bg-white/20 rounded-lg px-3 py-2">
+                    <span className="text-yellow-300 font-semibold">
+                      {selectedWinners[currentWinnerIndex].totalTickets} tickets
+                    </span>
+                  </div>
+                  <div className="bg-white/20 rounded-lg px-3 py-2">
+                    <span className="text-green-300 font-semibold">
+                      NPS: {selectedWinners[currentWinnerIndex].nps}
+                    </span>
+                  </div>
+                  <div className="bg-white/20 rounded-lg px-3 py-2">
+                    <span className="text-blue-300 font-semibold">
+                      NRPC: {selectedWinners[currentWinnerIndex].nrpc}
+                    </span>
+                  </div>
+                </div>
               </motion.div>
-            </AnimatePresence>
+            )}
+
+            {phase === 'complete' && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="text-center"
+              >
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text text-transparent mb-4">
+                  🎉 ALL WINNERS SELECTED! 🎉
+                </div>
+                <div className="text-lg text-white">
+                  Congratulations to all {winnerCount} winners!
+                </div>
+              </motion.div>
+            )}
           </div>
         </div>
 
