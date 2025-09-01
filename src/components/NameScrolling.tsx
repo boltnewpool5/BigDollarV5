@@ -46,30 +46,31 @@ export const NameScrolling: React.FC<NameScrollingProps> = ({
 
     const startScrolling = () => {
       let nameIndex = 0;
-      let speed = 50;
+      let speed = 80;
       let scrollDuration = 0;
+      let scrollInterval: NodeJS.Timeout;
       
       const scrollNames = () => {
-        setCurrentName(guides[nameIndex].name);
+        if (guides.length > 0) {
+          setCurrentName(guides[nameIndex].name);
+        }
         nameIndex = (nameIndex + 1) % guides.length;
         scrollDuration += speed;
         
-        // Scroll for 5 seconds, then start selecting winners
-        if (scrollDuration >= 5000) {
+        // Scroll for 4 seconds, then start selecting winners
+        if (scrollDuration >= 4000) {
+          clearInterval(scrollInterval);
           setPhase('selecting');
           selectWinnersWithDelay();
           return;
         }
-        
-        // Gradually increase speed for dramatic effect
-        if (speed < 100) {
-          speed = Math.min(speed + 5, 100);
-        }
-        
-        setTimeout(scrollNames, speed);
       };
 
+      // Start immediate scrolling
       scrollNames();
+      scrollInterval = setInterval(() => {
+        scrollNames();
+      }, speed);
     };
 
     const selectWinnersWithDelay = () => {
