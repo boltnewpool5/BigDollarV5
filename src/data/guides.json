@@ -690,16 +690,6 @@
     "totalTickets": 21
   },
   {
-    "id": 73,
-    "name": "Kumar, Saini Manish",
-    "supervisor": "Vennam Srikanth",
-    "department": "Chat",
-    "nps": 69.39,
-    "nrpc": 11.81,
-    "refundPercent": 3,
-    "totalTickets": 18
-  },
-  {
     "id": 74,
     "name": "Manish Saini",
     "supervisor": "Vennam Srikanth",
