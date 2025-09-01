@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 85,
+    "nrpc": 92,
+    "refundPercent": 3.2,
+    "totalTickets": 145
+  },
+  {
+    "id": 2,
+    "name": "David Rodriguez",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 78,
+    "nrpc": 88,
+    "refundPercent": 4.1,
+    "totalTickets": 132
+  },
+  {
+    "id": 3,
+    "name": "Emily Thompson",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.8,
+    "totalTickets": 167
+  },
+  {
+    "id": 4,
+    "name": "James Wilson",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 83,
+    "nrpc": 89,
+    "refundPercent": 3.7,
+    "totalTickets": 129
+  },
+  {
+    "id": 5,
+    "name": "Maria Garcia",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.9,
+    "totalTickets": 158
+  },
+  {
+    "id": 6,
+    "name": "Robert Brown",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 76,
+    "nrpc": 84,
+    "refundPercent": 4.8,
+    "totalTickets": 118
+  },
+  {
+    "id": 7,
+    "name": "Lisa Martinez",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 88,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 142
+  },
+  {
+    "id": 8,
+    "name": "Thomas Anderson",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 92,
+    "nrpc": 96,
+    "refundPercent": 2.5,
+    "totalTickets": 173
+  },
+  {
+    "id": 9,
+    "name": "Jennifer Davis",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 81,
+    "nrpc": 87,
+    "refundPercent": 3.9,
+    "totalTickets": 125
+  },
+  {
+    "id": 10,
+    "name": "Michael Taylor",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.4,
+    "totalTickets": 138
+  },
+  {
+    "id": 11,
+    "name": "Amanda Clark",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 79,
+    "nrpc": 85,
+    "refundPercent": 4.3,
+    "totalTickets": 121
+  },
+  {
+    "id": 12,
+    "name": "Christopher Lee",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.6,
+    "totalTickets": 134
+  },
+  {
+    "id": 13,
+    "name": "Ashley White",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 87,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 149
+  },
+  {
+    "id": 14,
+    "name": "Kevin Miller",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 4.0,
+    "totalTickets": 127
+  },
+  {
+    "id": 15,
+    "name": "Rachel Green",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 161
+  },
+  {
+    "id": 16,
+    "name": "Daniel Harris",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 77,
+    "nrpc": 83,
+    "refundPercent": 4.5,
+    "totalTickets": 115
+  },
+  {
+    "id": 17,
+    "name": "Nicole Young",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.3,
+    "totalTickets": 136
+  },
+  {
+    "id": 18,
+    "name": "Steven King",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 93,
+    "nrpc": 97,
+    "refundPercent": 2.4,
+    "totalTickets": 178
+  },
+  {
+    "id": 19,
+    "name": "Michelle Wright",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 80,
+    "nrpc": 86,
+    "refundPercent": 4.2,
+    "totalTickets": 123
+  },
+  {
+    "id": 20,
+    "name": "Brian Lopez",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.1,
+    "totalTickets": 144
+  },
+  {
+    "id": 21,
+    "name": "Stephanie Hill",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.8,
+    "totalTickets": 131
+  },
+  {
+    "id": 22,
+    "name": "Andrew Scott",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.5,
+    "totalTickets": 140
+  },
+  {
+    "id": 23,
+    "name": "Melissa Adams",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 94,
+    "nrpc": 98,
+    "refundPercent": 2.3,
+    "totalTickets": 182
+  },
+  {
+    "id": 24,
+    "name": "Jonathan Baker",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 81,
+    "nrpc": 85,
+    "refundPercent": 4.0,
+    "totalTickets": 126
+  },
+  {
+    "id": 25,
+    "name": "Lauren Nelson",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.2,
+    "totalTickets": 147
+  },
+  {
+    "id": 26,
+    "name": "Patrick Carter",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 79,
+    "nrpc": 84,
+    "refundPercent": 4.4,
+    "totalTickets": 119
+  },
+  {
+    "id": 27,
+    "name": "Samantha Mitchell",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 135
+  },
+  {
+    "id": 28,
+    "name": "Ryan Campbell",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.9,
+    "totalTickets": 155
+  },
+  {
+    "id": 29,
+    "name": "Jessica Parker",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.7,
+    "totalTickets": 128
+  },
+  {
+    "id": 30,
+    "name": "Matthew Turner",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.8,
+    "totalTickets": 164
+  },
+  {
+    "id": 31,
+    "name": "Andrea Phillips",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 77,
+    "nrpc": 82,
+    "refundPercent": 4.6,
+    "totalTickets": 113
+  },
+  {
+    "id": 32,
+    "name": "Joshua Evans",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 139
+  },
+  {
+    "id": 33,
+    "name": "Rebecca Edwards",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 133
+  },
+  {
+    "id": 34,
+    "name": "Nicholas Collins",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.1,
+    "totalTickets": 146
+  },
+  {
+    "id": 35,
+    "name": "Kimberly Stewart",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.8,
+    "totalTickets": 130
+  },
+  {
+    "id": 36,
+    "name": "Gregory Sanchez",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.6,
+    "totalTickets": 162
+  },
+  {
+    "id": 37,
+    "name": "Brittany Morris",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 78,
+    "nrpc": 84,
+    "refundPercent": 4.2,
+    "totalTickets": 122
+  },
+  {
+    "id": 38,
+    "name": "Eric Rogers",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.2,
+    "totalTickets": 143
+  },
+  {
+    "id": 39,
+    "name": "Heather Reed",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 92,
+    "nrpc": 96,
+    "refundPercent": 2.5,
+    "totalTickets": 174
+  },
+  {
+    "id": 40,
+    "name": "Brandon Cook",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 80,
+    "nrpc": 85,
+    "refundPercent": 4.1,
+    "totalTickets": 124
+  },
+  {
+    "id": 41,
+    "name": "Megan Bailey",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 137
+  },
+  {
+    "id": 42,
+    "name": "Tyler Cooper",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.6,
+    "totalTickets": 134
+  },
+  {
+    "id": 43,
+    "name": "Kristen Richardson",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.9,
+    "totalTickets": 153
+  },
+  {
+    "id": 44,
+    "name": "Scott Ward",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 75,
+    "nrpc": 81,
+    "refundPercent": 4.7,
+    "totalTickets": 111
+  },
+  {
+    "id": 45,
+    "name": "Tiffany Torres",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.1,
+    "totalTickets": 145
+  },
+  {
+    "id": 46,
+    "name": "Jason Peterson",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 159
+  },
+  {
+    "id": 47,
+    "name": "Crystal Gray",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.9,
+    "totalTickets": 128
+  },
+  {
+    "id": 48,
+    "name": "Jeffrey Ramirez",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.2,
+    "totalTickets": 141
+  },
+  {
+    "id": 49,
+    "name": "Vanessa James",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 136
+  },
+  {
+    "id": 50,
+    "name": "Benjamin Watson",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 165
+  },
+  {
+    "id": 51,
+    "name": "Courtney Brooks",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 78,
+    "nrpc": 83,
+    "refundPercent": 4.4,
+    "totalTickets": 117
+  },
+  {
+    "id": 52,
+    "name": "Carl Kelly",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 131
+  },
+  {
+    "id": 53,
+    "name": "Diana Sanders",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 152
+  },
+  {
+    "id": 54,
+    "name": "Trevor Price",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 138
+  },
+  {
+    "id": 55,
+    "name": "Monique Bennett",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.7,
+    "totalTickets": 163
+  },
+  {
+    "id": 56,
+    "name": "Derek Wood",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 79,
+    "nrpc": 84,
+    "refundPercent": 4.3,
+    "totalTickets": 120
+  },
+  {
+    "id": 57,
+    "name": "Cynthia Barnes",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.6,
+    "totalTickets": 133
+  },
+  {
+    "id": 58,
+    "name": "Marcus Ross",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 148
+  },
+  {
+    "id": 59,
+    "name": "Tracy Henderson",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 135
+  },
+  {
+    "id": 60,
+    "name": "Adam Coleman",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 92,
+    "nrpc": 96,
+    "refundPercent": 2.5,
+    "totalTickets": 171
+  },
+  {
+    "id": 61,
+    "name": "Natalie Jenkins",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 81,
+    "nrpc": 85,
+    "refundPercent": 4.0,
+    "totalTickets": 125
+  },
+  {
+    "id": 62,
+    "name": "Sean Perry",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.2,
+    "totalTickets": 142
+  },
+  {
+    "id": 63,
+    "name": "Allison Powell",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 80,
+    "nrpc": 84,
+    "refundPercent": 4.1,
+    "totalTickets": 123
+  },
+  {
+    "id": 64,
+    "name": "Victor Long",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 138
+  },
+  {
+    "id": 65,
+    "name": "Christine Hughes",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.8,
+    "totalTickets": 130
+  },
+  {
+    "id": 66,
+    "name": "Jordan Flores",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.9,
+    "totalTickets": 154
+  },
+  {
+    "id": 67,
+    "name": "Danielle Washington",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 78,
+    "nrpc": 83,
+    "refundPercent": 4.5,
+    "totalTickets": 116
+  },
+  {
+    "id": 68,
+    "name": "Keith Butler",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.6,
+    "totalTickets": 133
+  },
+  {
+    "id": 69,
+    "name": "Jacqueline Simmons",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 144
+  },
+  {
+    "id": 70,
+    "name": "Gabriel Foster",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 136
+  },
+  {
+    "id": 71,
+    "name": "Kayla Bryant",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 160
+  },
+  {
+    "id": 72,
+    "name": "Cameron Alexander",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.9,
+    "totalTickets": 127
+  },
+  {
+    "id": 73,
+    "name": "Amber Russell",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 140
+  },
+  {
+    "id": 74,
+    "name": "Ian Griffin",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 93,
+    "nrpc": 97,
+    "refundPercent": 2.4,
+    "totalTickets": 176
+  },
+  {
+    "id": 75,
+    "name": "Jenna Diaz",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 81,
+    "nrpc": 85,
+    "refundPercent": 4.0,
+    "totalTickets": 125
+  },
+  {
+    "id": 76,
+    "name": "Lucas Hayes",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 149
+  },
+  {
+    "id": 77,
+    "name": "Alexis Myers",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 79,
+    "nrpc": 84,
+    "refundPercent": 4.3,
+    "totalTickets": 119
+  },
+  {
+    "id": 78,
+    "name": "Cole Ford",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 135
+  },
+  {
+    "id": 79,
+    "name": "Sierra Hamilton",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 143
+  },
+  {
+    "id": 80,
+    "name": "Blake Graham",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 129
+  },
+  {
+    "id": 81,
+    "name": "Paige Sullivan",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 166
+  },
+  {
+    "id": 82,
+    "name": "Caleb Wallace",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 147
+  },
+  {
+    "id": 83,
+    "name": "Brooke West",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 132
+  },
+  {
+    "id": 84,
+    "name": "Hunter Gardner",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 156
+  },
+  {
+    "id": 85,
+    "name": "Faith Freeman",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.8,
+    "totalTickets": 128
+  },
+  {
+    "id": 86,
+    "name": "Carson Wells",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 139
+  },
+  {
+    "id": 87,
+    "name": "Jasmine Webb",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 93,
+    "nrpc": 97,
+    "refundPercent": 2.4,
+    "totalTickets": 177
+  },
+  {
+    "id": 88,
+    "name": "Mason Simpson",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 80,
+    "nrpc": 84,
+    "refundPercent": 4.2,
+    "totalTickets": 122
+  },
+  {
+    "id": 89,
+    "name": "Mackenzie Stevens",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 134
+  },
+  {
+    "id": 90,
+    "name": "Garrett Tucker",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 144
+  },
+  {
+    "id": 91,
+    "name": "Destiny Porter",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 137
+  },
+  {
+    "id": 92,
+    "name": "Clayton Hunter",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 167
+  },
+  {
+    "id": 93,
+    "name": "Tabitha Hicks",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 130
+  },
+  {
+    "id": 94,
+    "name": "Wesley Crawford",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.9,
+    "totalTickets": 151
+  },
+  {
+    "id": 95,
+    "name": "Lindsey Boyd",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 77,
+    "nrpc": 82,
+    "refundPercent": 4.6,
+    "totalTickets": 114
+  },
+  {
+    "id": 96,
+    "name": "Devin Mason",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 133
+  },
+  {
+    "id": 97,
+    "name": "Mariah Morales",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 146
+  },
+  {
+    "id": 98,
+    "name": "Preston Palmer",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 136
+  },
+  {
+    "id": 99,
+    "name": "Jasmin Reynolds",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 162
+  },
+  {
+    "id": 100,
+    "name": "Colton Cox",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.8,
+    "totalTickets": 128
+  },
+  {
+    "id": 101,
+    "name": "Gina Richardson",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 141
+  },
+  {
+    "id": 102,
+    "name": "Trent Ward",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 165
+  },
+  {
+    "id": 103,
+    "name": "Erica Torres",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 79,
+    "nrpc": 84,
+    "refundPercent": 4.3,
+    "totalTickets": 118
+  },
+  {
+    "id": 104,
+    "name": "Xavier Peterson",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 145
+  },
+  {
+    "id": 105,
+    "name": "Claudia Gray",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.6,
+    "totalTickets": 132
+  },
+  {
+    "id": 106,
+    "name": "Dustin Ramirez",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 148
+  },
+  {
+    "id": 107,
+    "name": "Tara James",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 92,
+    "nrpc": 96,
+    "refundPercent": 2.5,
+    "totalTickets": 173
+  },
+  {
+    "id": 108,
+    "name": "Jared Watson",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 81,
+    "nrpc": 85,
+    "refundPercent": 4.0,
+    "totalTickets": 124
+  },
+  {
+    "id": 109,
+    "name": "Kelsey Brooks",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 135
+  },
+  {
+    "id": 110,
+    "name": "Adrian Kelly",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 153
+  },
+  {
+    "id": 111,
+    "name": "Marissa Sanders",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 129
+  },
+  {
+    "id": 112,
+    "name": "Bryce Price",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 141
+  },
+  {
+    "id": 113,
+    "name": "Veronica Bennett",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 147
+  },
+  {
+    "id": 114,
+    "name": "Spencer Wood",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 134
+  },
+  {
+    "id": 115,
+    "name": "Bianca Barnes",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 142
+  },
+  {
+    "id": 116,
+    "name": "Oscar Ross",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 161
+  },
+  {
+    "id": 117,
+    "name": "Gabrielle Henderson",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.8,
+    "totalTickets": 127
+  },
+  {
+    "id": 118,
+    "name": "Jeremiah Coleman",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 138
+  },
+  {
+    "id": 119,
+    "name": "Sabrina Jenkins",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 136
+  },
+  {
+    "id": 120,
+    "name": "Phillip Perry",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 150
+  },
+  {
+    "id": 121,
+    "name": "Cassandra Powell",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 80,
+    "nrpc": 84,
+    "refundPercent": 4.1,
+    "totalTickets": 123
+  },
+  {
+    "id": 122,
+    "name": "Travis Long",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 144
+  },
+  {
+    "id": 123,
+    "name": "Miranda Hughes",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 168
+  },
+  {
+    "id": 124,
+    "name": "Garrett Flores",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 130
+  },
+  {
+    "id": 125,
+    "name": "Cassie Washington",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 140
+  },
+  {
+    "id": 126,
+    "name": "Brenden Butler",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 154
+  },
+  {
+    "id": 127,
+    "name": "Leah Simmons",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 78,
+    "nrpc": 83,
+    "refundPercent": 4.4,
+    "totalTickets": 117
+  },
+  {
+    "id": 128,
+    "name": "Dalton Foster",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 135
+  },
+  {
+    "id": 129,
+    "name": "Cheyenne Bryant",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 143
+  },
+  {
+    "id": 130,
+    "name": "Roman Alexander",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 133
+  },
+  {
+    "id": 131,
+    "name": "Katelyn Russell",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.9,
+    "totalTickets": 155
+  },
+  {
+    "id": 132,
+    "name": "Dominic Griffin",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.8,
+    "totalTickets": 126
+  },
+  {
+    "id": 133,
+    "name": "Kendra Diaz",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 136
+  },
+  {
+    "id": 134,
+    "name": "Isaiah Hayes",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 159
+  },
+  {
+    "id": 135,
+    "name": "Shelby Myers",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 81,
+    "nrpc": 85,
+    "refundPercent": 4.0,
+    "totalTickets": 124
+  },
+  {
+    "id": 136,
+    "name": "Brody Ford",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 144
+  },
+  {
+    "id": 137,
+    "name": "Jocelyn Hamilton",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 129
+  },
+  {
+    "id": 138,
+    "name": "Tristan Graham",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.3,
+    "totalTickets": 138
+  },
+  {
+    "id": 139,
+    "name": "Kasey Sullivan",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 148
+  },
+  {
+    "id": 140,
+    "name": "Quinton Wallace",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 157
+  },
+  {
+    "id": 141,
+    "name": "Melody West",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 134
+  },
+  {
+    "id": 142,
+    "name": "Nolan Gardner",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 143
+  },
+  {
+    "id": 143,
+    "name": "Hope Freeman",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 92,
+    "nrpc": 96,
+    "refundPercent": 2.5,
+    "totalTickets": 170
+  },
+  {
+    "id": 144,
+    "name": "Kendall Wells",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 80,
+    "nrpc": 84,
+    "refundPercent": 4.2,
+    "totalTickets": 121
+  },
+  {
+    "id": 145,
+    "name": "Celeste Webb",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 139
+  },
+  {
+    "id": 146,
+    "name": "Parker Simpson",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 135
+  },
+  {
+    "id": 147,
+    "name": "Vivian Stevens",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 147
+  },
+  {
+    "id": 148,
+    "name": "Cody Tucker",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 166
+  },
+  {
+    "id": 149,
+    "name": "Monica Porter",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 131
+  },
+  {
+    "id": 150,
+    "name": "Drake Hunter",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 142
+  },
+  {
+    "id": 151,
+    "name": "Sierra Hicks",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 79,
+    "nrpc": 84,
+    "refundPercent": 4.3,
+    "totalTickets": 119
+  },
+  {
+    "id": 152,
+    "name": "Jaxon Crawford",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 132
+  },
+  {
+    "id": 153,
+    "name": "Ariana Boyd",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 140
+  },
+  {
+    "id": 154,
+    "name": "Landon Mason",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 149
+  },
+  {
+    "id": 155,
+    "name": "Jade Morales",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 137
+  },
+  {
+    "id": 156,
+    "name": "Cruz Palmer",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 156
+  },
+  {
+    "id": 157,
+    "name": "Skylar Reynolds",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 81,
+    "nrpc": 85,
+    "refundPercent": 4.0,
+    "totalTickets": 125
+  },
+  {
+    "id": 158,
+    "name": "Phoenix Cox",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 163
+  },
+  {
+    "id": 159,
+    "name": "Autumn Richardson",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 145
+  },
+  {
+    "id": 160,
+    "name": "Knox Ward",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.8,
+    "totalTickets": 127
+  },
+  {
+    "id": 161,
+    "name": "Harmony Torres",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 136
+  },
+  {
+    "id": 162,
+    "name": "Zane Peterson",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 91,
+    "nrpc": 95,
+    "refundPercent": 2.6,
+    "totalTickets": 169
+  },
+  {
+    "id": 163,
+    "name": "Raven Gray",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 83,
+    "nrpc": 87,
+    "refundPercent": 3.7,
+    "totalTickets": 128
+  },
+  {
+    "id": 164,
+    "name": "Brayden Ramirez",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 141
+  },
+  {
+    "id": 165,
+    "name": "Iris James",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 148
+  },
+  {
+    "id": 166,
+    "name": "Kingston Watson",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 84,
+    "nrpc": 88,
+    "refundPercent": 3.5,
+    "totalTickets": 133
+  },
+  {
+    "id": 167,
+    "name": "Serenity Brooks",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 90,
+    "nrpc": 94,
+    "refundPercent": 2.7,
+    "totalTickets": 162
+  },
+  {
+    "id": 168,
+    "name": "Titan Kelly",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 146
+  },
+  {
+    "id": 169,
+    "name": "Luna Sanders",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 82,
+    "nrpc": 86,
+    "refundPercent": 3.8,
+    "totalTickets": 129
+  },
+  {
+    "id": 170,
+    "name": "Atlas Price",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 89,
+    "nrpc": 93,
+    "refundPercent": 2.8,
+    "totalTickets": 157
+  },
+  {
+    "id": 171,
+    "name": "Nova Bennett",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 85,
+    "nrpc": 89,
+    "refundPercent": 3.4,
+    "totalTickets": 134
+  },
+  {
+    "id": 172,
+    "name": "Orion Wood",
+    "supervisor": "Robert Kim",
+    "department": "Sales",
+    "nps": 88,
+    "nrpc": 92,
+    "refundPercent": 3.0,
+    "totalTickets": 151
+  },
+  {
+    "id": 173,
+    "name": "Sage Barnes",
+    "supervisor": "Jennifer Smith",
+    "department": "Operations",
+    "nps": 86,
+    "nrpc": 90,
+    "refundPercent": 3.2,
+    "totalTickets": 142
+  },
+  {
+    "id": 174,
+    "name": "Phoenix Ross",
+    "supervisor": "Lisa Wang",
+    "department": "Technical Support",
+    "nps": 92,
+    "nrpc": 96,
+    "refundPercent": 2.5,
+    "totalTickets": 175
+  },
+  {
+    "id": 175,
+    "name": "River Henderson",
+    "supervisor": "Michael Chen",
+    "department": "Customer Service",
+    "nps": 87,
+    "nrpc": 91,
+    "refundPercent": 3.1,
+    "totalTickets": 143
+  }
+]
