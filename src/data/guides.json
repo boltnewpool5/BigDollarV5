@@ -580,16 +580,6 @@
     "totalTickets": 40
   },
   {
-    "id": 59,
-    "name": "Ganesh Eedhula",
-    "supervisor": "Rahul  Radhavaram",
-    "department": "Chat",
-    "nps": 66.67,
-    "nrpc": 16.4,
-    "refundPercent": 0,
-    "totalTickets": 29
-  },
-  {
     "id": 60,
     "name": "Ganesh Eedhula",
     "supervisor": "Rahul  Radhavaram",
@@ -608,16 +598,6 @@
     "nrpc": 6.33,
     "refundPercent": 0,
     "totalTickets": 14
-  },
-  {
-    "id": 62,
-    "name": "Kusuma Manasa",
-    "supervisor": "Prashant  Agarwal",
-    "department": "Chat",
-    "nps": 67.5,
-    "nrpc": 9.66,
-    "refundPercent": 3,
-    "totalTickets": 24
   },
   {
     "id": 63,
@@ -698,16 +678,6 @@
     "nrpc": 16.6,
     "refundPercent": 0,
     "totalTickets": 17
-  },
-  {
-    "id": 71,
-    "name": "Poojitha Avula",
-    "supervisor": "Vennam Srikanth",
-    "department": "Chat",
-    "nps": 92.31,
-    "nrpc": 7.08,
-    "refundPercent": 0,
-    "totalTickets": 21
   },
   {
     "id": 72,
