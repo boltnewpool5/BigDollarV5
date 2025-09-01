@@ -1380,16 +1380,6 @@
     "totalTickets": 35
   },
   {
-    "id": 143,
-    "name": "Deepthi Mosam",
-    "supervisor": "Vennam Srikanth",
-    "department": "Chat",
-    "nps": 65.38,
-    "nrpc": 8.96,
-    "refundPercent": 1,
-    "totalTickets": 15
-  },
-  {
     "id": 144,
     "name": "Deepthi, Mosam",
     "supervisor": "Vennam Srikanth",
